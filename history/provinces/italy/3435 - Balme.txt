@@ -1,0 +1,7 @@
+owner = SVY
+controller = SVY
+add_core = SVY
+add_core = ITA
+add_core = ARP
+trade_goods = silk
+life_rating = 35

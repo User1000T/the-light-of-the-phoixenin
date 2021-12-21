@@ -1,0 +1,7 @@
+owner = ARA
+controller = ARA
+add_core = ARA
+add_core = NYE
+trade_goods = coffee
+terrain = sanaa
+life_rating = 30

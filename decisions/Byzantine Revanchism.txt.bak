@@ -1,0 +1,114 @@
+political_decisions = {
+    anatolia_rename = {             # Greek Names
+        picture= byzantine_triumph
+        potential = {
+            tag = BYZ
+            NOT = { has_country_flag = liberate_balkan_themes }
+        }
+
+        allow = {
+            is_greater_power = yes
+            war = no
+
+        }
+
+        effect = {
+            prestige = 25
+            880 = { change_province_name = "Paphlagonia" }
+            873 = { change_province_name = "Ikonion" }
+            866 = { change_province_name = "Nicopolis" }
+            874 = { change_province_name = "Polydorion" }
+            876 = { change_province_name = "Galatia" }
+            878 = { change_province_name = "Charsianon" }
+            877 = { change_province_name = "Armeniakon" }
+            881 = { change_province_name = "Claudiopolis" }
+            883 = { change_province_name = "Sinope" }
+            895 = { change_province_name = "Hadrianopolis" }
+            894 = { change_province_name = "Cilicia" }
+            896 = { change_province_name = "Germanikeia" }
+            898 = { change_province_name = "Doliche" }
+            884 = { change_province_name = "Kerasunt" }
+            879 = { change_province_name = "Sebasteia" }
+            888 = { change_province_name = "Acilisene" }
+            899 = { change_province_name = "Orrha" }
+            889 = { change_province_name = "Melitene" }
+            893 = { change_province_name = "Amida" }
+            887 = { change_province_name = "Theodosiopolis" }
+            890 = { change_province_name = "Vaspurakan" }
+            891 = { change_province_name = "Baghesh" }
+            885 = { change_province_name = "Chorzene" }
+            1096 = { change_province_name = "Bathus" }
+            886 = { change_province_name = "Arntach" }
+            875 = { change_province_name = "Perga" }
+            2414 = { change_province_name = "Bethzabde" }
+            882 = { change_province_name = "Trebizond" }
+            868 = { change_province_name = "Dorylaeon" }
+            893 = { state_scope = { change_region_name = "Amida" } }
+            873 = { state_scope = { change_region_name = "Ikonion" } }
+            894 = { state_scope = { change_region_name = "Cilicia" } }
+            892 = { change_province_name = "Agrotis" }
+            885 = { state_scope = { change_region_name = "Chaldia" } }
+            876 = { state_scope = { change_region_name = "Galatia" } }
+            890 = { state_scope = { change_region_name = "Vaspurakan" } }
+            880 = { state_scope = { change_region_name = "Paphlagonia" } }
+            861 = { state_scope = { change_region_name = "Opsikion" } }
+            872 = { state_scope = { change_region_name = "Tralleis" } }
+            set_country_flag = liberate_balkan_themes
+            any_pop = {
+                    limit = { culture = turkish }
+                    militancy = 8
+                    consciousness = 7
+            }
+            any_pop = {
+                    limit = { culture = kurdish }
+                    militancy = 5
+                    consciousness = 4
+            }
+            any_pop = {
+                    limit = { culture = armenian }
+                    militancy = 3
+                    consciousness = 3
+            }
+            any_pop = {
+                    limit = { culture = georgian }
+                    militancy = 2
+                    consciousness = 2
+            }
+            any_pop = {
+                    limit = { culture = greek }
+                    militancy = -5
+                    }
+            }
+        }
+		
+enact_ROMAN_alis_reforms = {
+       picture = byzantine_triumph
+       potential = {
+            tag = BYZ
+            civilized = yes
+            NOT = {
+                has_country_flag = Roman_alis_reforms_enacted
+            }
+        }
+		
+        allow = { 
+		              }
+		             effect = {
+            set_country_flag = Roman_alis_reforms_enacted
+			remove_country_modifier = Jizya_Egypt
+            prestige = 5
+            treasury = 5000
+            small_arms = 20
+            regular_clothes = 50
+            any_owned = BYZ
+            add_province_modifier = { name = baby_boom duration = 2555 } }
+            any_pop = {
+                limit = { is_primary_culture = no }
+                consciousness = 4
+                ideology = {
+                    value = liberal
+                    factor = 0.2
+                }
+            }
+        }
+    }

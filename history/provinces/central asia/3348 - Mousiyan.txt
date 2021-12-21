@@ -1,0 +1,8 @@
+owner = ARM
+controller = ARM
+add_core = ARM
+add_core = KDS
+add_core = PER
+add_core = AZB
+trade_goods = cotton
+life_rating = 35

@@ -1,0 +1,16 @@
+owner = CAN
+controller = CAN
+add_core = CAN
+add_core = QUE
+trade_goods = cattle
+life_rating = 40
+terrain = montreal
+state_building = {
+    level = 1
+    building = small_arms_factory
+    upgrade = yes
+}
+state_building = {
+    level = 1
+    building = regular_clothes_factory
+    upgrade = yes

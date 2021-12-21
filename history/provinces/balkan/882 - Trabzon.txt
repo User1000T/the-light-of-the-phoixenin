@@ -1,0 +1,7 @@
+owner = BYZ
+controller = BYZ
+add_core = BYZ
+add_core = PNT
+trade_goods = cattle
+terrain = trabzon
+life_rating = 35

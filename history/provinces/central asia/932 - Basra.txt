@@ -1,0 +1,10 @@
+owner = ARA
+controller = ARA
+add_core = ARA
+add_core = TUR
+add_core = PER
+add_core = IRQ
+trade_goods = fish
+life_rating = 35
+terrain = basra
+colonial = 2

@@ -1,0 +1,7 @@
+owner = ARA
+controller = ARA
+add_core = ARA
+add_core = BHR
+trade_goods = fruit
+terrain = bahrain
+life_rating = 34

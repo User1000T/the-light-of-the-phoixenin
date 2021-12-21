@@ -1,0 +1,9 @@
+owner = BOH
+controller = BOH
+add_core = BOH
+add_core = PRU
+add_core = GER
+add_core = LUS
+add_core = SLS
+trade_goods = iron
+life_rating = 40

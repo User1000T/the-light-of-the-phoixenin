@@ -1,0 +1,8 @@
+owner = ARA
+controller = ARA
+add_core = ARA
+add_core = NEJ
+trade_goods = fish
+life_rating = 32
+colonial = 2
+terrain = coastal_desert

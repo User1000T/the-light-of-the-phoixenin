@@ -1,0 +1,9 @@
+owner = PLC
+controller = PLC
+add_core = PLC
+add_core = POL
+add_core = SLV
+add_core = HUN
+add_core = CZH
+trade_goods = wool
+life_rating = 35

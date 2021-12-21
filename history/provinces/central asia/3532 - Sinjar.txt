@@ -1,0 +1,12 @@
+owner = ARA
+controller = ARA
+add_core = ARA
+add_core = TSI
+add_core = TUR
+add_core = HTY
+add_core = IRQ
+add_core = KDS
+add_core = ASY
+trade_goods = wool
+terrain = dryhills
+life_rating = 35
